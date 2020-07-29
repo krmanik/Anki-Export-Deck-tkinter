@@ -1,3 +1,4 @@
+import tkinter.messagebox
 import random
 import genanki
 import csv
@@ -8,24 +9,24 @@ class ExportDeck:
     def __init__(self, master):
         self.root = root
         root.title("Export Deck")
-        root.geometry("300x300")
-
+        root.geometry("600x600")
+ 
         self.fileNameLabel = Message(root, text = "File Name", width=294)
         self.fileNameLabel.pack()
         self.filename = ""
 
         self.btnSelectFile = Button(root, text = "Select File", command=self.selectFile)
         self.btnSelectFile.pack()
-
+         
         self.selectDelimLabel = Label(root, text = "Fields separated by:")
         self.selectDelimLabel.pack()
         self.delim = ''
 
         self.var = IntVar()
-        R1 = Radiobutton(root, text=' "," ', variable=self.var, value=1, command=self.sel)
+        R1 = Radiobutton(root, text='"," comma', variable=self.var, value=1, command=self.sel)
         R1.pack()
 
-        R2 = Radiobutton(root, text='"\\t"', variable=self.var, value=2, command=self.sel)
+        R2 = Radiobutton(root, text='"\\t" tab      ', variable=self.var, value=2, command=self.sel)
         R2.pack()
 
         self.btnImportFile = Button(root, text = "Import", command=self.importFile)
@@ -46,7 +47,7 @@ class ExportDeck:
 
     def importFile(self):
         self.window = Toplevel(self.root)
-        self.window.geometry('350x400')
+        self.window.geometry('500x600')
 
         deckNameLabel = Label(self.window, text="Name of Deck")
         deckNameLabel.grid(row=0, column=0)
@@ -181,7 +182,9 @@ background-color: white;
 
                 anki_package.write_to_file(deck_filename)
 
-                print("Created deck with {} flashcards".format(len(anki_deck.notes)))
+                print("Deck generated with {} flashcards".format(len(anki_deck.notes)))
+                
+                messagebox.showinfo("Success", "Deck generated!")
 
                 self.window.destroy()
 
@@ -189,6 +192,7 @@ background-color: white;
                 print("Fields are empty!")
         except:
             print("Deck Creation Failed!")
+            messagebox.showerror("Failed", "Deck not generated!")
 
 root = Tk()
 gui = ExportDeck(root)
