@@ -4,7 +4,7 @@ Export Anki Deck on Android
 *Experiment purpose only*
 
 ## For AnkiDroid
-1. Install Pydroid 3 from Play Store. 
+1. Install [Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) from Play Store. 
 2. Install genanki python library inside Pydroid using pip.
 3. Then download Anki Deck Export Tkinter 
 4. Run this script 
