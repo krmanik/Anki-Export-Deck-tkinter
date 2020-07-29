@@ -16,6 +16,7 @@ Export Anki Deck on Android
 ## For Anki Desktop
 1. Download this repo.
 2. Install ```genanki```
+<br>
 ```pip install genanki```
 3. Run main.py
 5. Select file and fields separated by (tab, comma)
