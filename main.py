@@ -1,4 +1,5 @@
 import tkinter.messagebox
+import platform
 import random
 import genanki
 import csv
@@ -9,7 +10,10 @@ class ExportDeck:
     def __init__(self, master):
         self.root = root
         root.title("Export Deck")
-        root.geometry("600x600")
+        if 'aarch64' in platform.platform():
+        	root.attributes('-fullscreen', True)
+        else:
+        	root.geometry("600x600")
  
         self.fileNameLabel = Message(root, text = "File Name", width=294)
         self.fileNameLabel.pack()
@@ -47,7 +51,10 @@ class ExportDeck:
 
     def importFile(self):
         self.window = Toplevel(self.root)
-        self.window.geometry('500x600')
+        if 'aarch64' in platform.platform():
+        	 self.window.attributes('-fullscreen', True)
+        else:
+             self.window.geometry('500x600')
 
         deckNameLabel = Label(self.window, text="Name of Deck")
         deckNameLabel.grid(row=0, column=0)
