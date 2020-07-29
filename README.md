@@ -26,4 +26,4 @@ Export Anki Deck on Android
 This generate default CSS for exporting deck. The css can be modified inside AnkiDroid app or Anki Desktop. 
 
 ## Demo
-![demo](https://raw.githubusercontent.com/infinyte7/Anki-Export-Deck-tkinter/master/export_deck_demo.gif)
+![demo](https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/export_deck_demo.gif)
