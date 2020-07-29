@@ -160,7 +160,7 @@ background-color: white;
                 anki_notes = []
 
                 with open(data_filename, "r", encoding="utf-8") as csv_file:
-                    csv_reader = csv.reader(csv_file, delimiter="\t")
+                    csv_reader = csv.reader(csv_file, delimiter = self.delim)
                     for row in csv_reader:
                         flds = []
                         for i in range(len(row)):
