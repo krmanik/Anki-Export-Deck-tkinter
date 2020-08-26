@@ -1,7 +1,10 @@
 # Anki-Export-Deck-tkinter
 Export Anki Deck on Android from CSV, TSV, txt files.
 
-*Experiment purpose only*
+In following example TAB separated file imported and anki deck created on Android. (HSK1)
+|Simplified|Traditional|Pinyin|Meaning|Audio|
+|--|--|--|--|--|
+|本|本|běn|measure word for books|[sound:cmn-本.mp3]|
 
 # Demo
 <img src="Images/demo_export_AnkiDroid.gif" height="520"></img>
