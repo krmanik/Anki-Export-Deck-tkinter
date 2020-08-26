@@ -41,6 +41,16 @@ This generate default CSS for exporting deck. The css can be modified inside Ank
 [genanki](https://github.com/kerrickstaley/genanki)
 <br>MIT License
 
+## Note
+
+```
+Title of Deck - is deck name inside AnkiDroid or Anki Desktop deck browser 
+Name of Deck - is file name of generated anki deck 
+Model of Deck - is note type containing generated fields
+```
+|<img src="Images/Screenshot_3.png"></img>|<img src="Images/Screenshot_4.png"></img>|
+|--|--|
+
 # Screenshots AnkiDroid
 |<img src="Images/Screenshot_1.jpg"></img>|<img src="Images/Screenshot_2.jpg"></img>|
 |--|--|
