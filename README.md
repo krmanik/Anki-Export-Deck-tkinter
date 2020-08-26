@@ -16,7 +16,7 @@ Export Anki Deck on Android from CSV, TSV, txt files.
 7. Enter file name, title name, model name.
 8. Enter name of fields to be mapped
 
-View this [demo](https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/export_deck_demo.gif)
+**View this [demo](https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/export_deck_demo.gif)**
 
 ## For Anki Desktop
 1. Download this repo.
@@ -32,8 +32,12 @@ pip install genanki
 
 This generate default CSS for exporting deck. The css can be modified inside AnkiDroid app or Anki Desktop. 
 
-View [Anki Desktop Demo](Images/demo_export_AnkiDesktop.gif)
+**View [Anki Desktop Demo](Images/demo_export_AnkiDesktop.gif)**
 
 # License
 [genanki](https://github.com/kerrickstaley/genanki)
 <br>MIT License
+
+# Screenshots AnkiDroid
+|<img src="Images/Screenshot_1.jpg"></img>|<img src="Images/Screenshot_2.jpg"></img>|
+|--|--|
