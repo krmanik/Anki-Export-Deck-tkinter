@@ -4,7 +4,7 @@ Export Anki Deck on Android from CSV, TSV, txt files.
 *Experiment purpose only*
 
 # Demo
-<img src="demo_export_AnkiDroid.gif" height="520"></img>
+<img src="Images/demo_export_AnkiDroid.gif" height="520"></img>
 
 ## For AnkiDroid
 1. Install [Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) from Play Store. 
@@ -32,7 +32,7 @@ pip install genanki
 
 This generate default CSS for exporting deck. The css can be modified inside AnkiDroid app or Anki Desktop. 
 
-View [Anki Desktop Demo](demo_export_AnkiDesktop.gif)
+View [Anki Desktop Demo](Images/demo_export_AnkiDesktop.gif)
 
 # License
 [genanki](https://github.com/kerrickstaley/genanki)
