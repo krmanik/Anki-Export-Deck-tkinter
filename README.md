@@ -42,6 +42,7 @@ connecting to a runtime to enable file browsing
 
 6. Download the decks from ```Show file browser```
 
+View demo: [Generate anki deck in browser using Google colab](Images/export_from_browser.gif)
 
 ## For Anki Desktop
 1. Download this repo.
