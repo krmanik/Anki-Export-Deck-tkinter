@@ -25,8 +25,8 @@ In following example TAB separated file imported and anki deck created on Androi
 1. Visit this link.
 [https://colab.research.google.com/drive/1pgQOKe1myv67OD7b5ggR8LtF4-7JbBrz?usp=sharing](https://colab.research.google.com/drive/1pgQOKe1myv67OD7b5ggR8LtF4-7JbBrz?usp=sharing)
 
-2.a) Click top left icon
-  b) Show file browser  
+2. a) Click top left icon
+   b) Show file browser  
 
 ```
 connecting to a runtime to enable file browsing
