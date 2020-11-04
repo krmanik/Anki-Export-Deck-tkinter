@@ -5,7 +5,7 @@
     text-align: center;
     border-radius: 2px;
     padding: 10px;
-    position: fixed;
+    position: relative;
     z-index: 1000;
     bottom: 60px;
     left: 0;
