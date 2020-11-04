@@ -1,10 +1,8 @@
- 
 pythonCode = `
     """
     Author: Infinyte7 (Mani)
     """
-    
-       
+
     def exportDeck(*args):
         import os
         import csv
@@ -107,8 +105,6 @@ pythonCode = `
     micropip.install("https://cdn.jsdelivr.net/gh/infinyte7/Anki-Export-Deck-tkinter/docs/py-whl/genanki-0.8.0-py3-none-any.whl")
         `
 
-        
-
 languagePluginLoader.then(() => {
     return pyodide.loadPackage(['micropip'])
 }).then(() => {
@@ -123,7 +119,6 @@ languagePluginLoader.then(() => {
 languagePluginLoader.then(function () {
     console.log('Ready');
 });
-
 
 function exportDeck() {
     // type conversion from javascript to python
