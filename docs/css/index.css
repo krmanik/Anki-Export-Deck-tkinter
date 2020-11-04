@@ -1,0 +1,74 @@
+#snackbar {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    margin: 10px;
+  }
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  @-webkit-keyframes fadein {
+    from {
+       bottom: 0;
+        opacity: 0;
+   }
+    to {
+       bottom: 60px;
+        opacity: 1;
+   }
+  }
+  @keyframes fadein {
+    from {
+       bottom: 0;
+        opacity: 0;
+   }
+    to {
+       bottom: 60px;
+        opacity: 1;
+   }
+  }
+  @-webkit-keyframes fadeout {
+    from {
+       bottom: 60px;
+        opacity: 1;
+   }
+    to {
+       bottom: 0;
+        opacity: 0;
+   }
+  }
+  @keyframes fadeout {
+    from {
+       bottom: 60px;
+        opacity: 1;
+   }
+    to {
+       bottom: 0;
+        opacity: 0;
+   }
+  }
+
+  .select-new{
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.9);
+    width: unset;
+    padding: unset;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    height: unset;
+    display: inline;
+  }
+
+  .select-new:active{
+    background-color: rgba(255,255,255,0.9);
+  }
