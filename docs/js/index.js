@@ -100,11 +100,11 @@ pythonCode = `
     # micropip.install("http://localhost:8000/py-whl/genanki-0.8.0-py3-none-any.whl")
 
     # from GitHub
-    # micropip.install("https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/frozendict-1.2-py3-none-any.whl?raw=true")
-    # micropip.install("https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/pystache-0.5.4-py3-none-any.whl?raw=true")
-    # micropip.install("https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/PyYAML-5.3.1-cp38-cp38-win_amd64.whl?raw=true")
-    # micropip.install('https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/cached_property-1.5.2-py2.py3-none-any.whl?raw=true')
-    # micropip.install("https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/genanki-0.8.0-py3-none-any.whl?raw=true")
+    micropip.install("https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/frozendict-1.2-py3-none-any.whl?raw=true")
+    micropip.install("https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/pystache-0.5.4-py3-none-any.whl?raw=true")
+    micropip.install("https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/PyYAML-5.3.1-cp38-cp38-win_amd64.whl?raw=true")
+    micropip.install('https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/cached_property-1.5.2-py2.py3-none-any.whl?raw=true')
+    micropip.install("https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/docs/py-whl/genanki-0.8.0-py3-none-any.whl?raw=true")
         `
 
         
