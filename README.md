@@ -10,6 +10,10 @@ Export Anki Deck from CSV, TSV or txt files.
 3. Enter fields name 
 4. Export the decks
 5. Download the decks
+6. If ```Export-deck.apkg``` file extension ends with ```.zip``` then rename and remove ```.zip```.
+
+### Demo
+<img src="Images/demo_in_browser.gif" height="450"></img>
 
 # For AnkiDroid
 
