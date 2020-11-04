@@ -6,6 +6,8 @@ Export Anki Deck from CSV, TSV or txt files.
 
    https://infinyte7.github.io/Anki-Export-Deck-tkinter/
 
+   Note: It is not working on iOS.
+   
 2. Import csv or tsv files
 3. Enter fields name 
 4. Export the decks
