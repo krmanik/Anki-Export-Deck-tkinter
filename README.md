@@ -22,8 +22,9 @@ In following example TAB separated file imported and anki deck created on Androi
 **View this [demo](https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/export_deck_demo.gif)**
 
 ## In Browser
-1. Visit this link.
-[https://colab.research.google.com/drive/1pgQOKe1myv67OD7b5ggR8LtF4-7JbBrz?usp=sharing](https://colab.research.google.com/drive/1pgQOKe1myv67OD7b5ggR8LtF4-7JbBrz?usp=sharing)
+1. Due to some reason I removed this. <s>Visit this link.
+   https://colab.research.google.com/<span></span>drive/1pgQOKe1myv67OD7b5ggR8LtF4-7JbBrz?usp=sharing</s>
+But code can be copied to google colab and deck can be generate. View [main_console.py](https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/main_console.py)
 
 2. a) Click top left icon
    b) Show file browser  
