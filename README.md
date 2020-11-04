@@ -1,15 +1,18 @@
 # Anki-Export-Deck-tkinter
-Export Anki Deck on Android from CSV, TSV, txt files.
+Export Anki Deck from CSV, TSV or txt files.
 
-In following example TAB separated file imported and anki deck created on Android. (HSK1)
-|Simplified|Traditional|Pinyin|Meaning|Audio|
-|--|--|--|--|--|
-|本|本|běn|measure word for books|[sound:cmn-本.mp3]|
+# In Browser
+1. Visit 
 
-# Demo
-<img src="Images/demo_export_AnkiDroid.gif" height="520"></img>
+   https://infinyte7.github.io/Anki-Export-Deck-tkinter/
 
-## For AnkiDroid
+2. Import csv or tsv files
+3. Enter fields name 
+4. Export the decks
+5. Download the decks
+
+# For AnkiDroid
+
 1. Install [Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) from Play Store. 
 2. Install ```genanki``` python library inside Pydroid using pip.
 3. Then download Anki Deck Export Tkinter 
@@ -19,31 +22,10 @@ In following example TAB separated file imported and anki deck created on Androi
 7. Enter file name, title name, model name.
 8. Enter name of fields to be mapped
 
+### Demo
+<img src="Images/demo_export_AnkiDroid.gif" height="450"></img>
+
 **View this [demo](https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/export_deck_demo.gif)**
-
-## In Browser
-1. Due to some reason I removed this. <s>Visit this link.
-   https://colab.research.google.com/<span></span>drive/1pgQOKe1myv67OD7b5ggR8LtF4-7JbBrz?usp=sharing</s>
-But code can be copied to google colab and deck can be generate. View [main_console.py](https://github.com/infinyte7/Anki-Export-Deck-tkinter/blob/master/main_console.py)
-
-2. a) Click top left icon
-   b) Show file browser  
-
-```
-connecting to a runtime to enable file browsing
-```
-
-3. Tap on play icon to install ```genanki```
-```
-!pip install genanki
-```
-4. Tap on next to run, scroll down
-
-5. Enter details 
-
-6. Download the decks from ```Show file browser```
-
-View demo: [Generate anki deck in browser using Google colab](Images/export_from_browser.gif)
 
 ## For Anki Desktop
 1. Download this repo.
@@ -61,20 +43,34 @@ This generate default CSS for exporting deck. The css can be modified inside Ank
 
 **View [Anki Desktop Demo](Images/demo_export_AnkiDesktop.gif)**
 
+## Note
+1.
+   ```
+   Title of Deck - is deck name inside AnkiDroid or Anki Desktop deck browser 
+   Name of Deck - is file name of generated anki deck 
+   Model of Deck - is note type containing generated fields
+   ```
+2. In following example TAB separated file have five fields.
+
+   |Simplified|Traditional|Pinyin|Meaning|Audio|
+   |--|--|--|--|--|
+   |本|本|běn|measure word for books|[sound:cmn-本.mp3]|
+
+3. Web version at 
+https://infinyte7.github.io/Anki-Export-Deck-tkinter/
+made using [pyodide](https://github.com/iodide-project/pyodide), [genanki](https://github.com/kerrickstaley/genanki) and HTML / CSS / JS.
+
+   [pyodide](https://github.com/iodide-project/pyodide) can be used to run python in browser.
+
+# Resources
+[pyodide](https://github.com/iodide-project/pyodide)
+<br>[using pyodide from javascript](https://github.com/iodide-project/pyodide/blob/master/docs/using_pyodide_from_javascript.md)
+<br>[using javascript objects from python](https://pyodide.readthedocs.io/en/latest/type_conversions.html#using-javascript-objects-from-python)
+
 # License
 [genanki](https://github.com/kerrickstaley/genanki)
 <br>MIT License
 
-## Note
-
-```
-Title of Deck - is deck name inside AnkiDroid or Anki Desktop deck browser 
-Name of Deck - is file name of generated anki deck 
-Model of Deck - is note type containing generated fields
-```
-|<img src="Images/Screenshot_3.png"></img>|<img src="Images/Screenshot_4.png"></img>|
-|--|--|
-
-# Screenshots AnkiDroid
-|<img src="Images/Screenshot_1.jpg"></img>|<img src="Images/Screenshot_2.jpg"></img>|
-|--|--|
+[Anki-Deck-Export-tkinter](https://github.com/infinyte7/Anki-Export-Deck-tkinter)
+<br>Mani (Infinyte7)
+<br>Mozilla Public License 2.0
