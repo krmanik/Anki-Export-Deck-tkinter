@@ -28,7 +28,7 @@ pythonCode = `
             front = "<div>{{" + str(fields[0]) + "}}</div>"
     
             for field in fields:
-                back += "<div>{{" + str(field) + "}}</div>"
+                back += "<div>{{" + str(field) + "}}</div>\\n"
     
             model_id = random.randrange(1 << 30, 1 << 31)
     
