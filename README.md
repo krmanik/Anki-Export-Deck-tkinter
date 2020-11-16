@@ -18,6 +18,17 @@ Export Anki Deck from CSV, TSV or txt files.
 <img src="Images/demo_in_browser.gif" height="450"></img>
 
 # For AnkiDroid
+Download apk <b>or</b> run script in Pydroid 3
+## Download apk from release page
+https://github.com/infinyte7/Anki-Export-Deck-tkinter/releases
+
+1. Install apk
+2. Give storage permission
+3. Import csv, tsv or txt file
+4. Enter title, model, and fields
+5. Export deck
+
+## Run script in Pydroid 3
 
 1. Install [Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) from Play Store. 
 2. Install ```genanki``` python library inside Pydroid using pip.
