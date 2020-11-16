@@ -27,6 +27,7 @@ https://github.com/infinyte7/Anki-Export-Deck-tkinter/releases
 3. Import csv, tsv or txt file
 4. Enter title, model, and fields
 5. Export deck
+Decks are exported to ```Anki Deck Export``` folder
 
 ## Run script in Pydroid 3
 
