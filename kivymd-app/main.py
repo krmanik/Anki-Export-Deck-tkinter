@@ -1,17 +1,22 @@
-from kivy.lang import Builder
-from kivy.properties import DictProperty
 from kivy.utils import rgba
+from kivy.lang import Builder
+from kivy.utils import platform
+from kivy.properties import DictProperty
+
 from kivymd.app import MDApp
+from kivymd.toast import toast
 from kivymd.uix.screen import Screen
 from kivymd.uix.button import MDFlatButton
+from kivymd.uix.textfield import MDTextField
 from kivymd.uix.filemanager import MDFileManager
-from kivymd.toast import toast
-from kivy.utils import platform
-import random
-import genanki
-import csv
+
 import os
+import csv
+import random
 import traceback
+
+import genanki
+from main_str import helper_string
 
 from kivy.core.window import Window
 Window.softinput_mode = 'below_target'
@@ -23,13 +28,10 @@ if platform == 'android':
     from android.permissions import request_permissions, Permission
     from android.storage import primary_external_storage_path
 
-from kivymd.uix.textfield import MDTextField
-
-from main_str import helper_string
-
 
 class MainScreen(Screen):
     pass
+
 
 class ExportScreen(Screen):
     pass
@@ -238,7 +240,6 @@ background-color: white;
 
                 toast("Deck generated with {} flashcards".format(
                     len(anki_deck.notes)))
-
             else:
                 toast("Fields are empty!")
         except:
