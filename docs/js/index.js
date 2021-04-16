@@ -90,19 +90,12 @@ pythonCode = `
     
     import micropip
 
-    # localhost
-    # micropip.install("http://localhost:8000/py-whl/frozendict-1.2-py3-none-any.whl")
-    # micropip.install("http://localhost:8000/py-whl/pystache-0.5.4-py3-none-any.whl")
-    # micropip.install("http://localhost:8000/py-whl/PyYAML-5.3.1-cp38-cp38-win_amd64.whl")
-    # micropip.install('http://localhost:8000/py-whl/cached_property-1.5.2-py2.py3-none-any.whl')
-    # micropip.install("http://localhost:8000/py-whl/genanki-0.8.0-py3-none-any.whl")
-
     # from GitHub using CDN
-    micropip.install("https://cdn.jsdelivr.net/gh/infinyte7/Anki-Export-Deck-tkinter/docs/py-whl/frozendict-1.2-py3-none-any.whl")
-    micropip.install("https://cdn.jsdelivr.net/gh/infinyte7/Anki-Export-Deck-tkinter/docs/py-whl/pystache-0.5.4-py3-none-any.whl")
-    micropip.install("https://cdn.jsdelivr.net/gh/infinyte7/Anki-Export-Deck-tkinter/docs/py-whl/PyYAML-5.3.1-cp38-cp38-win_amd64.whl")
-    micropip.install("https://cdn.jsdelivr.net/gh/infinyte7/Anki-Export-Deck-tkinter/docs/py-whl/cached_property-1.5.2-py2.py3-none-any.whl")
-    micropip.install("https://cdn.jsdelivr.net/gh/infinyte7/Anki-Export-Deck-tkinter/docs/py-whl/genanki-0.8.0-py3-none-any.whl")
+    micropip.install("py-whl/frozendict-1.2-py3-none-any.whl")
+    micropip.install("py-whl/pystache-0.5.4-py3-none-any.whl")
+    micropip.install("py-whl/PyYAML-5.3.1-cp38-cp38-win_amd64.whl")
+    micropip.install("py-whl/cached_property-1.5.2-py2.py3-none-any.whl")
+    micropip.install("py-whl/genanki-0.8.0-py3-none-any.whl")
         `
 
 languagePluginLoader.then(() => {
@@ -240,4 +233,8 @@ function showSnackbar(msg) {
     x.className = "show";
 
     setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function closeConsole() {
+    document.getElementById("pyodide-load-status").style.display = "none";
 }

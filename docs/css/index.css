@@ -5,7 +5,7 @@
     text-align: center;
     border-radius: 2px;
     padding: 10px;
-    position: relative;
+    position: fixed;
     z-index: 1000;
     bottom: 60px;
     left: 0;
@@ -58,7 +58,7 @@
    }
   }
 
-  .select-new{
+  .select-new {
     font-size: 20px;
     background-color: rgba(255,255,255,0.9);
     width: unset;
@@ -72,3 +72,20 @@
   .select-new:active{
     background-color: rgba(255,255,255,0.9);
   }
+
+  .pop-up {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 75%;
+    height: 0;
+    margin: auto;
+    background-color: #f3f3f3;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
