@@ -1,6 +1,10 @@
 # Anki-Export-Deck-tkinter
 Export Anki Deck from CSV, TSV or txt files.
 
+
+# Note: Use this to export Anki Decks in browser.
+https://infinyte7.github.io/genanki-js/demo/index.html
+
 # In Browser
 1. Visit 
 
